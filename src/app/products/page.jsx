@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "@/Components/navbar";
-import Review from "@/Components/review";
+import Navbar from "@/components/navbar";
 import Choose from "@/Components/choose"
 import Cardsnew from "@/Components/cardsnew"
 const Products = () => {
