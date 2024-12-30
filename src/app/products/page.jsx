@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "@/components/navbar";
+import Navbar from "@/Components/navbar";
 import Choose from "@/Components/choose"
 import Cardsnew from "@/Components/cardsnew"
 const Products = () => {
