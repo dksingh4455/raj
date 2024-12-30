@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/footer";
@@ -12,19 +11,6 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
-=======
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Footer from "@/components/footer";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
->>>>>>> cc0f8936d1bfc6ac1b958e84a090dabc6aa93d67
 });
 
 export const metadata = {
@@ -39,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

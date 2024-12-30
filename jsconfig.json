@@ -1,17 +1,9 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["src/components/*"]
-    }
-  }
-}
-
-=======
-    "paths": {
+      "@/components/*": ["src/Components/*"],
       "@/*": ["./src/*"]
     }
   }
 }
->>>>>>> cc0f8936d1bfc6ac1b958e84a090dabc6aa93d67
