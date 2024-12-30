@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+import Navbar from "@/Components/navbar";
 import Pagination from "@/Components/pagination "
 import Card from "@/Components/card";
 import Cardimg from "@/Components/cardimg";
