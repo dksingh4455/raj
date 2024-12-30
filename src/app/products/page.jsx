@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "@/components/navbar";
-import Review from "@/components/review";
-import Choose from "@/components/choose"
-import Cardsnew from "@/components/cardsnew"
+import Navbar from "@/Components/navbar";
+import Review from "@/Components/review";
+import Choose from "@/Components/choose"
+import Cardsnew from "@/Components/cardsnew"
 const Products = () => {
   return (
     <>

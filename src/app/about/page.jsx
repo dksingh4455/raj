@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "@/components/navbar";
-import Cardimg from "@/components/cardimg";
-import Counter from "@/components/counter";
-import Review from "@/components/review";
+import Navbar from "@/Components/navbar";
+import Cardimg from "@/Components/cardimg";
+import Counter from "@/Components/counter";
+import Review from "@/Components/review";
 
 
 const Aboutus = () => {
